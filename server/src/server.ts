@@ -14,4 +14,6 @@ app.get('/habits', async () => {
 
 app.listen({
   port: 3333,
+}).then(() => {
+  console.log("I'm running")
 })
